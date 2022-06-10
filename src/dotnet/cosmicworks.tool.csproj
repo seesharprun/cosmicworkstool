@@ -8,11 +8,20 @@
     <LangVersion>10</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.0.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackAsTool>true</PackAsTool>
-    <ToolCommandName>greeter</ToolCommandName>
+    <ToolCommandName>cosmicworks</ToolCommandName>
     <PackageOutputPath>./pkg</PackageOutputPath>
+    <PackageId>CosmicWorks</PackageId>
+    <Authors>Sidney Andrews</Authors>
+    <Company>Microsoft</Company>
+    <PackageTags>Azure;Cosmos;DocumentDb;Tool</PackageTags>
+    <Description>
+      Command-line tool to generate Azure Cosmos DB SQL API data.
+    </Description>
+    <ProjectUrl>https://github.com/seesharprun/cosmicworkstool</ProjectUrl>
+    <RepositoryUrl>https://github.com/seesharprun/cosmicworkstool</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.9.1" />
